@@ -1,0 +1,33 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Dec 15 2019 03:39:47
+gem5 started Dec 23 2019 14:56:21
+gem5 executing on fc-mint, pid 5505
+command line: ../build/X86/gem5.opt -d ./Results/SIZE_64 ../configs/example/se.py -c ./Matmul/matmul --caches --l1d_size=64kB --l1i_size=64kB --cacheline_size=64
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+
+MATMUL
+  C version
+  An interactive demonstration of the speed of matrix multiplication.
+Version 1.0c, last compiled on 25-MAR-92.  This version is for a Apple Macintosh
+
+If you've never used this program before, type EXPLAIN.
+
+Command?  (Type H for help):N has been set to 64
+Command?  (Type H for help):ORDER has been set to R8_IJK
+Command?  (Type H for help): ORDER    LDA   N       Time      Ops     MFLOPS   A(N,N) MACHINE      LANGUAGE
+ R8_IJK   128  64   1.000000   524288   0.524288   64.000 Apple Macintosh     C   
+The matrix multiplication has been carried out.
+Command?  (Type H for help):Please type "Y" to confirm that you want to quit.
+Command?  (Type H for help):A copy of your input is in the file matmul.inp
+A copy of your results is in the file matmul.dat
+A copy of the entire session is in the file matmul.out
+
+MATMUL:
+  Normal end of execution.
+Exiting @ tick 9068436500 because exiting with last active thread context
+Simulated exit code not 0! Exit code is 1
